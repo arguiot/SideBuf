@@ -17,7 +17,7 @@
 
 
 
-function SHA256(s) {
+function sha256(s) {
     const chrsz = 8;
     const hexcase = 0;
 

@@ -1,11 +1,11 @@
 const XORCipher = {
     encode(key, data) {
-        data = xor_encrypt(key, data.split(""));
+        data = xor_encrypt(key, new String(data).split(""));
         return b64_encode(data);
     },
     decode(key, data) {
         data = b64_decode(data);
-        return xor_decrypt(key, data.split(""));
+        return xor_decrypt(key, new String(data).split(""));
     }
 };
 

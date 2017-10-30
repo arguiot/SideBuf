@@ -1,3 +1,3 @@
-public pull(name, secure=false) {
-	return this.decrypt(name, secure);
+pull(name) {
+	return this.decrypt(name);
 }

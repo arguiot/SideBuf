@@ -1,6 +1,4 @@
-private decrypt(name, encrypted) {
-	//= ../other/sha256.js
-	//= ../other/xorcipher.js
+decrypt(name) {
 	//= github://marcuswestin/store.js/dist/store.everything.min.js
-	return encrypted == true ? XORCipher(name, store.get(sha256(name))) : store.get(name)
+	return store.get(`sidebuf_${name}`)
 }
