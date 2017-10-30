@@ -1,0 +1,33 @@
+{
+  "name": "sidebuf",
+  "version": "0.0.1",
+  "description": "A JavaScript side buffer",
+  "main": "dist/sidebuf.js",
+  "scripts": {
+    "test": "gulp && eye"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arguiot/SideBuf.git"
+  },
+  "keywords": [
+    "side",
+    "buffer",
+    "storage",
+    "exporting",
+    "data",
+    "object"
+  ],
+  "author": "Arthur Guiot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arguiot/SideBuf/issues"
+  },
+  "homepage": "https://github.com/arguiot/SideBuf#readme",
+  "devDependencies": {
+    "eye.js": "^0.2.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rigger": "^0.5.8"
+  }
+}
